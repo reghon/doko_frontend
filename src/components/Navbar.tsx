@@ -17,7 +17,6 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-gray-200 bg-white">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
        
-        {/* Left: Brand */}
         <Link href="#home" className="flex items-center space-x-2">
           <Image
             src="logo.svg" 
@@ -29,7 +28,6 @@ export default function Navbar() {
           <span className="text-xl font-bold text-[#7B6EF2]">DoKo</span>
         </Link>
 
-        {/* Middle: Nav items */}
         <ul className="hidden md:flex items-center gap-14">
           {middleNav.map((item) => (
             <li key={item.href}>
@@ -40,7 +38,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Right: Download */}
         <a href={rightNav.href} className="text-sm font-medium text-gray-700 hover:text-gray-900">
           {rightNav.label}
         </a>
