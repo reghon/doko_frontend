@@ -10,7 +10,7 @@ const middleNav = [
   { href: "#faq", label: "FAQ" },
 ];
 
-const rightNav = { href: "#download", label: "Download" };
+const rightNav = { href: "https://play.google.com/store/apps/details?id=com.doko.app", label: "Download" };
 
 export default function Navbar() {
   return (
@@ -38,9 +38,14 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a href={rightNav.href} className="text-sm font-medium text-gray-700 hover:text-gray-900">
+        <Link
+          href={rightNav.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-medium text-gray-700 hover:text-gray-900"
+        >
           {rightNav.label}
-        </a>
+        </Link>
       </nav>
     </header>
   );
