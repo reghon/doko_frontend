@@ -28,8 +28,8 @@ const reviews = [
 ];
 export default function Review() {
   return (
-    <section id="review" className="py-20">
-      <div className="relative py-10 bg-gradient-to-b from-[#7B6EF24D] via-transparent to-transparent">
+    <section id="review" className="pb-10">
+      <div className="relative pt-20 pb-10 bg-gradient-to-b from-[#7B6EF24D] via-transparent to-transparent">
         <div className="mx-auto max-w-6xl px-4 text-center">
           <h2 className="text-xl font-bold text-[#7B6EF2]">REVIEW</h2>
           <p className="mt-2 text-lg font-semibold">What they Say About Us?</p>
