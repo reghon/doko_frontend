@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section id="home" className="">
+    <section id="home" className="bg-white">
       <div className="relative py-25 bg-gradient-to-b from-transparent via-transparent to-[#7B6EF24D]">
         <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-4">
           <div>
