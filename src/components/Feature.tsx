@@ -29,7 +29,7 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <section id="feature" className="py-15 pb-30">
+    <section id="feature" className="bg-white py-15 pb-30">
       <div className="mx-auto max-w-3xl px-4 text-center">
         <h2 className="text-xl font-bold text-[#7B6EF2]">FEATURE</h2>
         <p className="mt-2 text-lg font-semibold">Make Productivity Simple</p>
