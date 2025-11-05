@@ -9,10 +9,10 @@ const Navbar: React.FC = () => {
   const mainColor = '#7B6EF2';
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#feature", label: "Feature" },
-    { href: "#review", label: "Review" },
-    { href: "#faq", label: "FAQ" },
+    { name: 'home', href: "/#home", label: "Home" },
+    { name: 'feature', href: "/#feature", label: "Feature" },
+    { name: 'review', href: "/#review", label: "Review" },
+    { name: 'faq', href: "/#faq", label: "FAQ" },
   ];
 
   const ctaLinks = [
